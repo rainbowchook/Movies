@@ -1,0 +1,16 @@
+.bg-svg {
+  width: 100%;
+  background-image: url('../svg/video-camera-svgrepo-com.svg');
+  background-size: cover;
+  height: 0;
+  padding: 0; /* reset */
+  padding-bottom: 92%;
+  border: 0;
+  box-shadow: inset;
+}
+
+.logo {
+  background: linear-gradient(to right, #FFFFFF, #87cce4, #296d9e);
+  border-radius: 10px;
+  padding: 20px;
+}

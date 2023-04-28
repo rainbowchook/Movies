@@ -1,0 +1,20 @@
+.about-section {
+  background-color:rgb(5, 110, 105, 0.8);
+  margin: 10em auto 0em;
+  border: 0;
+  width: 50%;
+  color: white;
+  text-align: center;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 0.5em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  height: max-content;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);;
+}
+
+.about-section > p {
+  text-transform: none;
+  font-size: medium;
+}

@@ -1,0 +1,43 @@
+.navbar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color:rgb(5, 110, 105, 0.5);
+  margin: 0;
+  border: 0;
+  max-width: 60%;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 0.5em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  height: 3em;
+  text-decoration: none;
+}
+
+.navbar > li {
+  border-right: 1px solid #bbb;
+  display: inline;
+  padding: 0.5em 3em;
+}
+
+.navbar > li:hover {
+  background-color:rgb(5, 110, 105, 0.8);
+}
+
+.navbar > li:last-child {
+  border-right: none;
+}
+
+.navbar .page-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .active {
+  text-decoration-line: underline;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
